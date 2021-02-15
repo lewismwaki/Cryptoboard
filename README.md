@@ -42,7 +42,7 @@ Cryptoboard is an android application for cryptocurrency market data, prices, ch
     
 
 ## 📲Installation
-Navigate to the [releases page](https://github.com/mwakicodes/cryptoboard/releases) and download and install the [latest version](https://github.com/mwakicodes/cryptoboard/releases). 
+Navigate to the [releases page](https://github.com/mwakicodes/cryptoboard/releases) and download and install the [latest version](https://github.com/mwakicodes/Cryptoboard/releases/download/v0.0.1-alpha/Cryptoboard.v0.0.1-alpha.apk). 
 
 > Previous versions are located there too.🔖
 ## 🧘‍♂️Motivation
