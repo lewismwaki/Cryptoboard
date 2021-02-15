@@ -1,0 +1,89 @@
+name: cryptoboard
+description: A new Flutter application.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 0.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  #  logic
+  http:
+  flutter_bloc: ^6.1.1
+  bloc: ^6.1.1
+  supercharged: ^1.12.0
+  formz: ^0.3.2
+  url_launcher: ^5.7.10
+
+
+  #  ui
+  flutter_screenutil: ^4.0.3
+  pull_to_refresh: 1.6.3
+  shimmer: ^1.1.2
+  animations: ^1.1.2
+  font_awesome_flutter: ^8.11.0
+  cached_network_image: ^2.5.0
+  flutter_swiper: ^1.1.6
+  google_fonts: ^1.1.2
+  transparent_image: ^1.0.0
+  keyboard_avoider: ^0.1.2
+  flutter_spinkit: ^4.1.2+1
+  syncfusion_flutter_charts: ^18.4.41
+  readmore: ^1.0.1
+  bot_toast: ^3.0.5
+  flutter_inappwebview: ^4.0.0+4
+  flutter_native_splash: ^0.2.11
+  image: ^2.1.19
+  material_design_icons_flutter: ^4.0.5855
+  connectivity: ^2.0.2
+  app_settings: ^4.0.4
+  data_connection_checker: ^0.3.4
+
+  #  dart
+  equatable:
+  meta: ^1.2.4
+  pedantic: ^1.9.2
+  intl: ^0.16.1
+
+  #  firebase
+  google_sign_in: ^4.5.9
+  flutter_facebook_auth: ^2.0.1
+  firebase_dynamic_links: ^0.7.0+1
+  firebase_core: ^0.7.0
+  firebase_auth: ^0.20.0+1
+
+  #  repos
+  authentication_repository:
+    path: packages/authentication_repository
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  bloc_test: ^7.1.0
+  mockito: ^4.1.4
+
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icons/
+    - assets/images/
+    - assets/gifs/

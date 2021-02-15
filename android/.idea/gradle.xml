@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="testRunner" value="PLATFORM" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="1.8" />
+        <option name="modules">
+          <set>
+            <option value="C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/app_settings-4.0.4/android" />
+            <option value="C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/connectivity-2.0.2/android" />
+            <option value="C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_auth-0.20.0+1/android" />
+            <option value="C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_core-0.7.0/android" />
+            <option value="C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_dynamic_links-0.7.0+1/android" />
+            <option value="C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_facebook_auth-2.0.2/android" />
+            <option value="C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_inappwebview-4.0.0+4/android" />
+            <option value="C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/google_sign_in-4.5.9/android" />
+            <option value="C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider-1.6.27/android" />
+            <option value="C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite-1.3.2+3/android" />
+            <option value="C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher-5.7.10/android" />
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+        <option name="useQualifiedModuleNames" value="true" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1090435067271",
+    "project_id": "cryptoboard-c45e1",
+    "storage_bucket": "cryptoboard-c45e1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1090435067271:android:ddbb9c0adb927550b6b722",
+        "android_client_info": {
+          "package_name": "com.mwakicodes.cryptoboard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1090435067271-qj6lre2vi47nj7a9oiq2jjrve20e3sv2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mwakicodes.cryptoboard",
+            "certificate_hash": "e0489c4ae7d78e1cb35e50a382049fe4adfd126c"
+          }
+        },
+        {
+          "client_id": "1090435067271-pvg7n3fk3h9lm34079jjjrvd50n5m20d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfk5QHd_ZWbn4J1Wwj03-PnTFNWi_YF1k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1090435067271-pvg7n3fk3h9lm34079jjjrvd50n5m20d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
