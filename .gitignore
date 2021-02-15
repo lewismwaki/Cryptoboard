@@ -17,6 +17,7 @@ lib/business_logic/cubits/sign_up/
 lib/src/
 lib/generated_plugin_registrant.dart
 packages/
+ui/
 
 # Directory created by dartdoc
 # If you don't generate documentation locally you can remove this line.
