@@ -4,8 +4,19 @@
 .dart_tool/
 .packages
 build/
+app/google-services.json
+app/src/main/AndroidManifest.xml
+app/src/debug/AndroidManifest.xml
 # If you're building an application, you may want to check-in your pubspec.lock
 pubspec.lock
+lib/data/
+lib/business_logic/blocs/auth/
+lib/business_logic/blocs/news/
+lib/business_logic/cubits/login/
+lib/business_logic/cubits/sign_up/
+lib/src/
+lib/generated_plugin_registrant.dart
+packages/
 
 # Directory created by dartdoc
 # If you don't generate documentation locally you can remove this line.
@@ -19,3 +30,7 @@ doc/api/
 *.js_
 *.js.deps
 *.js.map
+
+#keys
+*.keystore
+*.jks
