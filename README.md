@@ -9,7 +9,7 @@
   - [**🤼Contributing**](#Contributing)
   - [**🎨Code Style**](#Code-style)
   - [**🚦 Project Status**](#Project-status)
-  - [**🪐 Connect**](#Connect)
+  - [**:trollface: Connect**](#Connect)
   - [**🙅‍♂️ Disclaimer**](#Disclaimer)
   - [**⚖ Licenses**](#Licences)
   - [**💌Feedback**](#Feedback)
