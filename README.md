@@ -63,6 +63,13 @@ The beta releases however, will heavily involve and overhaul of UI elements and 
 I am more than happy to collaborate with the dev community on this project. Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change. UI/UX and the design community is most welcome too.
 
 > For any queries or permissons [contact me](mailto:mwakicodes@gmail.com). 📩
+
+
+## 🎨 Code Style
+   * State management: flutter_bloc
+   * Authentication: firebase
+   
+   
 ## 🚦 Project Status
 **`🟡 Slowed down`**
 
@@ -80,6 +87,8 @@ Feedback is anonymous unless you choose to provide an email.
 **[Twitter](https://twitter.com/lewymwaki) ㋛  [Instagram](https://instagram.com/lewymwaki) ㋛ [Github](https://github.com/mwakicodes)**
 ## 🙅‍♂️ Disclaimer
 Unless stated, Cryptoboard is **NOT** a commercial app. And is not intended to make financial profits in anyway; neither ads, promotions nor fees.
+
+I do not guarantee stability of APIs. Data and news might be unstable at a point in time. Henceforth, unless stated, Cryptoboard is not to be used for Financial Analysis of any sort.
 
 ## ⚖ Licenses
 
