@@ -46,7 +46,9 @@ dependencies:
   keyboard_avoider: ^0.1.2
   flutter_spinkit: ^4.1.2+1
   syncfusion_flutter_charts: ^18.4.41
-  readmore: ^1.0.1
+  readmore:
+    git:
+      url: git://github.com/epynic/readmore
   bot_toast: ^3.0.5
   flutter_inappwebview: ^4.0.0+4
   flutter_native_splash: ^0.2.11
