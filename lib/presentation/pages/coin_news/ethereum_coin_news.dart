@@ -21,6 +21,7 @@ class EthereumCoinNews extends StatefulWidget {
 
 class _EthereumCoinNewsState extends State<EthereumCoinNews> with AutomaticKeepAliveClientMixin {
   @override
+  // ignore: must_call_super
   Widget build(BuildContext context) {
     final ChromeSafariBrowser browser = new MyChromeSafariBrowser(new WebViewContent());
 

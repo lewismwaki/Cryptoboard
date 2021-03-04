@@ -18,6 +18,7 @@ class EthereumSection extends StatefulWidget {
 
 class _EthereumSectionState extends State<EthereumSection> with AutomaticKeepAliveClientMixin {
   @override
+  // ignore: must_call_super
   Widget build(BuildContext context) {
     final NewsBloc newsBloc = BlocProvider.of<NewsBloc>(context);
 

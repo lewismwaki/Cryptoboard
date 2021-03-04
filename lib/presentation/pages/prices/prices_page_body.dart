@@ -61,7 +61,7 @@ class PricesPageBody extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.start,
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
-                    FlatButton(
+                    MaterialButton(
                       padding: EdgeInsets.all(0),
                       highlightColor: Colors.transparent,
                       onPressed: () {},
@@ -73,7 +73,7 @@ class PricesPageBody extends StatelessWidget {
                       ),
                     ),
                     SizedBox(width: 5.w),
-                    FlatButton(
+                    MaterialButton(
                       padding: EdgeInsets.all(0),
                       highlightColor: Colors.transparent,
                       onPressed: () {

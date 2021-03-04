@@ -22,6 +22,7 @@ class GainersLosersSection extends StatefulWidget {
 }
 
 class _GainersLosersSectionState extends State<GainersLosersSection> with AutomaticKeepAliveClientMixin {
+  // ignore: must_call_super
   Widget build(BuildContext context) {
     final RangeSwitcherBloc rangeSwitcherBloc = BlocProvider.of<RangeSwitcherBloc>(context);
     final AllCoinsCubit allCoinsCubit = BlocProvider.of<AllCoinsCubit>(context);

@@ -19,6 +19,7 @@ class NewsSection extends StatefulWidget {
 
 class _NewsSectionState extends State<NewsSection> with AutomaticKeepAliveClientMixin {
   @override
+  // ignore: must_call_super
   Widget build(BuildContext context) {
     final NewsBloc newsBloc = BlocProvider.of<NewsBloc>(context);
     final BottomNavBarBloc bottomNavBarBloc = BlocProvider.of<BottomNavBarBloc>(context);

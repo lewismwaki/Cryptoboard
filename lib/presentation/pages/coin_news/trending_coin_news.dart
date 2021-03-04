@@ -19,6 +19,7 @@ class TrendingCoinNews extends StatefulWidget {
 
 class _TrendingCoinNewsState extends State<TrendingCoinNews> with AutomaticKeepAliveClientMixin {
   @override
+  // ignore: must_call_super
   Widget build(BuildContext context) {
     return BlocBuilder<NewsBloc, NewsState>(
       cubit: widget.newsBloc,

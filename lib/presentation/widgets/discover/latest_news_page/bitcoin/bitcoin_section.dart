@@ -18,6 +18,7 @@ class BitcoinSection extends StatefulWidget {
 
 class _BitcoinSectionState extends State<BitcoinSection> with AutomaticKeepAliveClientMixin {
   @override
+  // ignore: must_call_super
   Widget build(BuildContext context) {
     final NewsBloc newsBloc = BlocProvider.of<NewsBloc>(context);
 
