@@ -29,7 +29,6 @@ class ByRankAscending extends StatelessWidget {
     final AllCoinsCubit allCoinsCubit = BlocProvider.of<AllCoinsCubit>(context);
     final ChartCubit chartCubit = BlocProvider.of<ChartCubit>(context);
     final Chart24hCubit chart24hCubit = BlocProvider.of<Chart24hCubit>(context);
-    final WatchListBloc watchListBloc = BlocProvider.of<WatchListBloc>(context);
 
     final _assetsCubit = BlocProvider.of<AssetsCubit>(context);
     return BlocBuilder<AssetsCubit, AssetsState>(
@@ -58,7 +57,6 @@ class ByRankAscending extends StatelessWidget {
           final formattedMaxSupply = NumberFormat.compactCurrency(decimalDigits: 2, locale: 'en_US', symbol: '\$')
               .format(asset.maxSupply == null ? 1 : double.parse(asset.maxSupply));
 
-          bool isWatchlisted = false;
 
           return InkWell(
             splashColor: Colors.transparent,

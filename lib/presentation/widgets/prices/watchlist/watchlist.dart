@@ -1,5 +1,4 @@
 import 'package:cached_network_image/cached_network_image.dart';
-import 'package:cryptoboard/business_logic/blocs/prices_switcher/prices_switcher_bloc.dart';
 import 'package:cryptoboard/business_logic/blocs/watchlist/watchlist_bloc.dart';
 import 'package:cryptoboard/constants/constants.dart';
 import 'package:cryptoboard/data/models/asset/asset_model.dart';
@@ -18,7 +17,6 @@ class WatchList extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     // final WatchListBloc watchListBloc = BlocProvider.of<WatchListBloc>(context);
-    final PricesSwitcherBloc pricesSwitcherBloc = BlocProvider.of<PricesSwitcherBloc>(context);
     return BlocBuilder<WatchListBloc, List<Asset>>(
       cubit: watchListBloc,
       builder: (context, assetList) {
@@ -41,7 +39,7 @@ class WatchList extends StatelessWidget {
         // final formattedVolume24h = NumberFormat.compactCurrency(decimalDigits: 2, locale: 'en_US', symbol: '\$').format(volume24h);
         // final formattedCircSupply = NumberFormat.compactCurrency(decimalDigits: 2, locale: 'en_US', symbol: '\$').format(circSupply);
         // final formattedMaxSupply = NumberFormat.compactCurrency(decimalDigits: 2, locale: 'en_US', symbol: '\$')
-            // .format(asset.maxSupply == null ? 1 : double.parse(asset.maxSupply));
+        // .format(asset.maxSupply == null ? 1 : double.parse(asset.maxSupply));
 
         return Padding(
           padding: EdgeInsets.only(bottom: 15.h, top: 15.h, right: 16.0.w, left: 16.0.w),
