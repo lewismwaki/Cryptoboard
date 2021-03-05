@@ -53,7 +53,7 @@ class UnderConstruction extends StatelessWidget {
                 children: [
                   TextSpan(
                     recognizer: TapGestureRecognizer()
-                      ..onTap = () async => await browser.open(url: 'https://github.com/mwakicodes/cryptoboard/releases'),
+                      ..onTap = () async => await browser.open(url: Uri.parse('https://github.com/mwakicodes/cryptoboard/releases')),
                     text: "https://github.com/mwakicodes/cryptoboard/releases ",
                     style: TextStyle(
                       fontSize: 14.0.sp,

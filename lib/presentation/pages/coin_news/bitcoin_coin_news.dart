@@ -63,7 +63,7 @@ class BitcoinCoinNews extends StatelessWidget {
                         final timeAgo = publishedAgo.inMinutes > 60 ? publishedAgo.inHours : publishedAgo.inMinutes;
                         return GestureDetector(
                           onTap: () {
-                            browser.open(url: newsUrl);
+                            browser.open(url: Uri.parse(newsUrl));
                           },
                           child: Padding(
                             padding: EdgeInsets.only(bottom: 24.0.h),

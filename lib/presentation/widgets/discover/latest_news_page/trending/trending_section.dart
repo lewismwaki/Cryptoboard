@@ -54,7 +54,7 @@ class _TrendingSectionState extends State<TrendingSection> with AutomaticKeepAli
                   padding: EdgeInsets.only(left: 16.0.w, right: 16.0.w, top: 16.0.h, bottom: 32.0.h),
                   child: GestureDetector(
                     onTap: () async {
-                      await browser.open(url: newsUrl);
+                      await browser.open(url: Uri.parse(newsUrl));
                     },
                     child: Container(
                       height: 350.h,

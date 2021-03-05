@@ -2,6 +2,7 @@ import 'package:bot_toast/bot_toast.dart';
 import 'package:cryptoboard/business_logic/cubits/login/login_cubit.dart';
 import 'package:cryptoboard/constants/constants.dart';
 import 'package:cryptoboard/presentation/pages/auth/sign_up/sign_up_page.dart';
+import 'package:cryptoboard/presentation/shared/pages_builder.dart';
 import 'package:cryptoboard/presentation/shared/toast_notification.dart';
 import 'package:cryptoboard/presentation/shared/web_view.dart';
 import 'package:firebase_auth/firebase_auth.dart' as firebase_auth;
@@ -378,8 +379,25 @@ class _SignInButton extends StatelessWidget {
                       },
                     );
                     //return context.read<LoginCubit>().logInWithCredentials();
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (BuildContext context) {
+                          return PagesBuilder();
+                        },
+                      ),
+                    );
                   }
-                : () {},
+                : () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (BuildContext context) {
+                          return PagesBuilder();
+                        },
+                      ),
+                    );
+                  },
           ),
         );
       },
@@ -518,7 +536,9 @@ class _SocialLoginButtons extends StatelessWidget {
                 FaIcon(FontAwesomeIcons.facebookF),
               ],
             ),
-            onPressed: () => context.read<LoginCubit>().signInWithFacebook(),
+            onPressed: () {
+              context.read<LoginCubit>().signInWithFacebook();
+            },
           ),
         ],
       ),
@@ -549,7 +569,7 @@ class _Disclaimer extends StatelessWidget {
               TextSpan(
                 text: ' Terms and Conditions',
                 recognizer: TapGestureRecognizer()
-                  ..onTap = () async => await browser.open(url: 'https://www.websitepolicies.com/policies/view/WsmWyfO6'),
+                  ..onTap = () async => await browser.open(url: Uri.parse('https://www.websitepolicies.com/policies/view/WsmWyfO6')),
                 style: TextStyle(
                   color: Color(0xff3861fb),
                   fontSize: 12.sp,
@@ -566,7 +586,8 @@ class _Disclaimer extends StatelessWidget {
               TextSpan(
                 text: 'Privacy Policy.',
                 recognizer: TapGestureRecognizer()
-                  ..onTap = () async => await browser.open(url: 'https://www.freeprivacypolicy.com/live/7d83b341-6b48-4456-983a-8a7e00a3f107'),
+                  ..onTap =
+                      () async => await browser.open(url: Uri.parse('https://www.freeprivacypolicy.com/live/7d83b341-6b48-4456-983a-8a7e00a3f107')),
                 style: TextStyle(
                   color: Color(0xff3861fb),
                   fontSize: 12.sp,

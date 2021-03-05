@@ -55,7 +55,7 @@ class _NewsSectionState extends State<NewsSection> with AutomaticKeepAliveClient
                       final timeAgo = publishedAgo.inMinutes > 60 ? publishedAgo.inHours : publishedAgo.inMinutes;
                       return GestureDetector(
                         onTap: () async {
-                          await browser.open(url: newsUrl);
+                          await browser.open(url: Uri.parse(newsUrl));
                         },
                         child: Padding(
                           padding: EdgeInsets.only(bottom: 24.0.h),

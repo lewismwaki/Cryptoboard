@@ -1,7 +1,6 @@
 import 'package:bloc/bloc.dart';
+import 'package:cryptoboard/data/models/asset/asset_model.dart';
 import 'package:equatable/equatable.dart';
-
-import 'file:///D:/LEWY/Dev/Projects/ROUGH/Flutter/cryptoboard/lib/data/models/asset/asset_model.dart';
 
 part 'set_price_state.dart';
 

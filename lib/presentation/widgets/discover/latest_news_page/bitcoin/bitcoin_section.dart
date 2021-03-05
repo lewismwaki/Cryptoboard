@@ -52,7 +52,7 @@ class _BitcoinSectionState extends State<BitcoinSection> with AutomaticKeepAlive
                           padding: EdgeInsets.only(bottom: 24.0.h),
                           child: GestureDetector(
                             onTap: () {
-                              browser.open(url: newsUrl);
+                              browser.open(url: Uri.parse(newsUrl));
                             },
                             child: Row(
                               mainAxisAlignment: MainAxisAlignment.start,

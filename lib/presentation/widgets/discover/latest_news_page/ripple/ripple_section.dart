@@ -56,7 +56,7 @@ class _RippleSectionState extends State<RippleSection> with AutomaticKeepAliveCl
                           padding: EdgeInsets.only(bottom: 24.0.h),
                           child: GestureDetector(
                             onTap: () async {
-                              await browser.open(url: newsUrl);
+                              await browser.open(url: Uri.parse(newsUrl));
                             },
                             child: Row(
                               mainAxisAlignment: MainAxisAlignment.start,

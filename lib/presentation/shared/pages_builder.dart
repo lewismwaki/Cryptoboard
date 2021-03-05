@@ -96,7 +96,7 @@ class PagesBuilder extends StatelessWidget {
                           ),
                           child: ClipOval(
                             child: CachedNetworkImage(
-                              imageUrl: '${currentUser.photoURL}',
+                              imageUrl: 'https://material-ui.com/static/images/avatar/3.jpg/',
                               placeholder: (context, url) => ShimmerAvi(),
                             ),
                           ),

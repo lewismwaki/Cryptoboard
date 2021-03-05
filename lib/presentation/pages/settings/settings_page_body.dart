@@ -379,7 +379,7 @@ class _SettingsPageBodyState extends State<SettingsPageBody> with AutomaticKeepA
 
               //privacy policy
               ListTile(
-                onTap: () async => await browser.open(url: 'https://www.freeprivacypolicy.com/live/7d83b341-6b48-4456-983a-8a7e00a3f107'),
+                onTap: () async => await browser.open(url: Uri.parse('https://www.freeprivacypolicy.com/live/7d83b341-6b48-4456-983a-8a7e00a3f107')),
                 dense: true,
                 leading: Icon(
                   Icons.lock_outlined,
@@ -402,7 +402,7 @@ class _SettingsPageBodyState extends State<SettingsPageBody> with AutomaticKeepA
 
               //terms of service
               ListTile(
-                onTap: () async => await browser.open(url: 'https://www.websitepolicies.com/policies/view/WsmWyfO6'),
+                onTap: () async => await browser.open(url: Uri.parse('https://www.websitepolicies.com/policies/view/WsmWyfO6')),
                 dense: true,
                 leading: Icon(
                   Icons.account_balance_outlined,
@@ -425,7 +425,7 @@ class _SettingsPageBodyState extends State<SettingsPageBody> with AutomaticKeepA
 
               //about
               ListTile(
-                onTap: () async => await browser.open(url: 'https://github.com/mwakicodes/cryptoboard/#readme'),
+                onTap: () async => await browser.open(url: Uri.parse('https://github.com/mwakicodes/cryptoboard/#readme')),
                 dense: true,
                 leading: Icon(
                   MdiIcons.web,
@@ -520,7 +520,7 @@ class _SettingsPageBodyState extends State<SettingsPageBody> with AutomaticKeepA
               ),
               SizedBox(height: 4.0.h),
               GestureDetector(
-                onTap: () => browser.open(url: 'https://github.com/mwakicodes/cryptoboard/releases'),
+                onTap: () => browser.open(url: Uri.parse('https://github.com/mwakicodes/cryptoboard/releases')),
                 child: Text(
                   'Check for updates',
                   textAlign: TextAlign.center,

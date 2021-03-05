@@ -119,7 +119,10 @@ class MyApp extends StatefulWidget {
 
 class _MyAppState extends State<MyApp> {
   final _navigatorKey = GlobalKey<NavigatorState>();
+
   NavigatorState get _navigator => _navigatorKey.currentState;
+
+  ///
 
   @override
   Widget build(BuildContext context) {
@@ -250,7 +253,7 @@ class _MyAppState extends State<MyApp> {
 
                 BlocProvider<SignUpCubit>(
                   create: (BuildContext context) => SignUpCubit(
-                    context.read<AuthenticationRepository>(),
+                    context?.read<AuthenticationRepository>(),
                   ),
                 ),
               ],

@@ -651,7 +651,7 @@ class _Disclaimer extends StatelessWidget {
               TextSpan(
                 text: ' Terms and Conditions',
                 recognizer: TapGestureRecognizer()
-                  ..onTap = () async => await browser.open(url: 'https://www.websitepolicies.com/policies/view/WsmWyfO6'),
+                  ..onTap = () async => await browser.open(url: Uri.parse('https://www.websitepolicies.com/policies/view/WsmWyfO6')),
                 style: TextStyle(
                   color: Color(0xff3861fb),
                   fontSize: 12.sp,
@@ -668,7 +668,8 @@ class _Disclaimer extends StatelessWidget {
               TextSpan(
                 text: 'Privacy Policy.',
                 recognizer: TapGestureRecognizer()
-                  ..onTap = () async => await browser.open(url: 'https://www.freeprivacypolicy.com/live/7d83b341-6b48-4456-983a-8a7e00a3f107'),
+                  ..onTap =
+                      () async => await browser.open(url: Uri.parse('https://www.freeprivacypolicy.com/live/7d83b341-6b48-4456-983a-8a7e00a3f107')),
                 style: TextStyle(
                   color: Color(0xff3861fb),
                   fontSize: 12.sp,

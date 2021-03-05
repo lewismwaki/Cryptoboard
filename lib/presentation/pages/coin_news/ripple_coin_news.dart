@@ -67,7 +67,7 @@ class RippleCoinNews extends StatelessWidget {
                           padding: EdgeInsets.only(bottom: 24.0.h),
                           child: GestureDetector(
                             onTap: () {
-                              return browser.open(url: newsUrl);
+                              return browser.open(url: Uri.parse(newsUrl));
                             },
                             child: Row(
                               mainAxisAlignment: MainAxisAlignment.start,
