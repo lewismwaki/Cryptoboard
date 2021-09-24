@@ -71,9 +71,9 @@ I am more than happy to collaborate with the dev community on this project. Pull
    
    
 ## 🚦 Project Status
-**`🟡 Slowed down`**
+**`🔴 Slowed down`**
 
-Currently focusing on Uni. A few changes and releases will still be made. (Big changes too bc I dont like school that much lol). 
+Currently focusing on Uni. A few changes and releases will still be made. 
 >Stay on board for a year or so. It will be a ride. 🎢
 
 ## 💌Feedback
